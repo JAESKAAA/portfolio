@@ -1,0 +1,270 @@
+title: Jaeskaaa - portfolio
+name: 최재석
+email: jaeskaaa@gmail.com
+description: >-
+  Java Web Developer
+
+
+baseurl: ""
+url: "https://jaeskaaa.github.io/portfolio-blog"
+
+
+# profile 이미지
+profile_image: images/profile.jpg
+
+
+# SNS 아이디
+facebook_id: #
+instagram_id: jaeskaaa
+github_id: jaeskaaa
+
+
+# Youtube vid
+youtube_vid: #
+
+
+# Custom Color (기술스택 프로그레스바 색임)
+primary: 2c98f0 #b72cf0
+primary_hover: 44A4F2 #9a2dc7
+color_1: 2c98f0 #b72cf0
+color_2: ec5453
+color_3: f9bf3f
+color_4: a84cb8
+color_5: 2fa499
+color_6: 4054b2
+
+# 메인 화면 슬라이더
+# slider type 0  (텍스트가 우측 정렬된 슬라이더)
+slider_0: # 형식에 맞추어 항목 추가
+- background_url: images/main-laptop.jpg
+  title: Welcome <br> To <br> Jaeskaaa's <br>Portfolio</br>
+  position: absolute
+  transform: translate( -144%, -122% )
+
+# slider type 1  (텍스트가 좌측 정렬된 슬라이더)
+slider_1: # 형식에 맞추어 항목 추가
+- background_url: images/main-profile-2.jpg
+  title: I am<br>Web Developer
+  subtitle: >- 
+    Java를 주 언어로,<br>
+    하루하루 성장 하고 있는<br>
+    개발자 최재석입니다.
+  position: absolute
+  transform: translate( 131%, -79% )
+  
+
+
+slider_2: # 형식에 맞추어 항목 추가
+- background_url: images/main-profile-7.jpg
+  title: Keep<br>Learning,
+  subtitle: >- 
+    끊임 없이 공부하고<br>
+    새로운 기술 습득에<br>
+    거부감이 없는 개발자입니다.<br>
+  position: absolute
+  transform: translate( 162%, 21% )
+
+# About
+about_meta: About Me
+about_header: >- 
+  " Keep Learning "
+about_introduce: >-
+  "안녕하세요. 백엔드 개발자를 준비하고 있는 최재석입니다.."
+about_content: >-
+  내 집 하나 갖기 힘든 세상에서, 내 것 하나 만들고자 합니다. <br>
+  뚜렷한 성과도, 목표도 없이 나태하게 살던 때 처음 해봤던 클론 코딩은 새로운 세상을 열어 주었습니다. <br>
+  하나의 기술을 어느정도 공부하면 계속 해서 새로운 기술을 배워야 한다는 점은, <br> 제게 끊임 없는 성장 동력을 주는 것 같았습니다. <br>
+  저는 새롭게 다가온 그 세상을 온몸으로 받아 드렸고, 딱 한 발짝 내딛었다고 생각합니다. <br>
+  아직 걸음마 단계이지만, 하루 하루 더 열심히 배워 나날히 발전하는 모습을 보여드리고 싶습니다.
+about_services: # 형식에 맞추어 항목 추가
+- icon: icon-data
+  name: DataBase
+- icon: icon-monitor
+  name: Front-End
+- icon: icon-book2
+  name: Back-End
+- icon: icon-code
+  name: Java
+about_box_content: 괜찮은 문구 <br>박스 색바꾸는 yml파일에 추가 <br><br><br>야물파일로 변환 <strong>의뢰</strong>의뢰
+about_box_button:
+  link: #
+  name: sample
+
+
+# Tech  skill
+tech_meta: TECH SKILLS
+tech_header: THE SKILLS THAT I CAN DO
+tech_content: 제가 경험한 기술들 입니다.
+tech_list: # 형식에 맞추어 항목 추가
+- name: Java
+  color: color-1
+  animation: fadeInLeft
+  percent: 60
+  mark: 60
+  content: 객체지향을 자바로 공부 하였으며, Socket Programming, Servlet/JSP, Spring/SpringBoot까지 경험하였습니다.
+- name: DataBase
+  color: color-2
+  animation: fadeInRight
+  percent: 30
+  mark: 30
+  content: Oracle과 MySQL 사용 경험이 있습니다. 프로그래밍을 공부 할 수록 DB와 쿼리능력의 필요성을 절실히 느껴 꾸준히 공부 중이며, 현재 SQLD 자격까지 취득한 상태 입니다.
+- name: AWS
+  color: color-3
+  animation: fadeInLeft
+  percent: 20
+  mark: 20
+  content: 프로젝트 배포를 AWS EC2 서버에 진행한 경험이 있습니다. 해당 경험으로 CI/CD의 필요성을 절실히 느껴 학습 할 예정입니다.  
+- name: Github
+  color: color-4
+  animation: fadeInRight
+  percent: 30
+  mark: 30
+  content: 프로젝트 협업 및 형상관리를 Git/GitHub를 통해 진행하였습니다. 현재 Github 서버를 활용하여 포트폴리오 사이트를 관리하고 있습니다. 
+tech_desc: 프로젝트를 진행하다 보니, 데이터를 어떻게 효율적으로 전달 할 수 있을지, <br> 대량 트래픽에도 버틸 수 있는 서버는 어떤 방식으로 구현되었는지 등 궁금한 것이 더 많아지는 것 같습니다. <br>
+  이러한 궁금증들과 부족한점을 보완하기위해 <strong>Jenkins, Docker, AWS, Ajax</strong>와 좀 더 좋은 코드를 작성하는 방법을 계속 해서 공부할 예정입니다. 
+
+
+# Project
+project_meta: My Work
+project_header: PROJECT
+project_introduce: <span>개인 프로젝트</span><span>팀 프로젝트</span><span>Business</span>
+project_load_more: 앞으로 더 많은 프로젝트가 추가될 예정입니다:)    # 더보기 내용
+project_load_more_url: https://github.com/jaeskaaa
+
+project_my_name: 개인프로젝트
+
+project_my: # 형식에 맞추어 항목 추가
+- background_url: images/kakao-clon.JPG
+  animation: fadeInLeft
+  name: 카카오톡 클론 코딩 (2021.03)
+  description: 처음 진행해봤던 클론 코딩 작업입니다. UI부분만 구현해보는 작업이었으며, 해당 프로젝트로 flex나 다양한 HTML/CSS 지식을 습득 할 수 있었습니다. 
+  detail_url: https://github.com/JAESKAAA/kokoa-clone-2021
+  readmore_url: #
+
+- background_url: images/mini-ui-project.JPG
+  animation: fadeInLeft
+  name: 음악 플레이어 UI 코딩 (2021.03)
+  description: 카카오톡 클론 코딩에 이어서 조금 더 디자인에 신경 쓰면서 UI 작업했던 프로젝트입니다.
+  detail_url: #
+  readmore_url: #
+
+- background_url: images/todo-list.JPG
+  animation: fadeInLeft
+  name: To Do List (2021.03)
+  description: 이전까지 HTML/CSS만 이용했다면, 처음으로 Javascript 이용하여 진행한 프로젝트입니다. 특정 태그를 선택하여 변형 시키고, local-storage를 사용하여 임시로 데이터를 저장하는 기능까지 경험 할 수 있었습니다.
+  detail_url: #
+  readmore_url: #
+
+project_team_name: 팀프로젝트
+project_team: # 형식에 맞추어 항목 추가
+- background_url: images/pawmap.JPG
+  animation: fadeInRight
+  name: PawMap (2021.12)
+  description: 반려동물을 키우는 사람들이 점점 증가함에 따라, 주변 반려동물 병원을 보다 손쉽게 검색, 예약, 진단서 관리까지 서비스 해주는 통합 솔루션입니다. 
+  detail_url: https://github.com/JAESKAAA/PawMap
+  readmore_url: pdf/pawmap-initial.pdf
+  db_url: pdf/PawMap_ERD.pdf
+
+- background_url: images/merchandiner.jpg
+  animation: fadeInRight
+  name: Merchan, Diner ! (2021.10)
+  description: Servlet/JSP 활용 한 첫 프로젝트입니다. 맛집 추천과 SNS를 접목 시켜 서비스를 구현 하였습니다.
+  detail_url: https://github.com/JAESKAAA/merchandiner
+  readmore_url: #
+
+- background_url: images/soundcloud.jpg
+  animation: fadeInRight
+  name: Sound Cloud (2021.08)
+  description: Java를 이용한 첫 프로젝트입니다. Socket을 활용하여 미리 업로드 된 음원 다운로드 및 재생이 가능하며, 해당 음원에 대한 리뷰 기능 까지 구현 하였습니다.
+  detail_url: https://github.com/JAESKAAA/FirstMiniProject
+  readmore_url: pdf/Sound-Cloud.pdf
+
+project_business_name: Business
+project_business: # 형식에 맞추어 항목 추가
+- background_url: images/my_business.PNG
+  animation: fadeInTop
+  name: 인프런강의(2021~)
+  description: >-
+    취준과 대학원진학을 동시에 했을때 많은 곳에서 github 주소뿐만아니라 개발 블로그주소도 요청하는데가 많았다.(물론 필수는 아니였지만) 
+    또한 교육기관(멋쟁이사자처럼,네이버 부스트 캠프, 소마등)에서도 마찬가지이다. 현재 프로그래밍의 중요도가 올라가고있으며 초등학생부터 의무교육을 시작한다고 한다. 
+    많은 비전공자들이 뒤늦게 프로그래밍을 시작하고 있다. 열심히 배우고 지원할려니 개발 블로그를 요청한다... 프로그래밍을 시작할때 알았다면 얼마나 좋았을까. 
+    공부하면서 블로그 내용을 채웠으면 참 좋았을것이다. 이런 흐름을 캐치하여 나는 개발자다운 블로그인 깃헙블로그를 만드는 짧은 강의를 만들었다. 
+  detail_url: #
+  readmore_url: #
+
+
+# Experience
+exp_meta: What have I achieved?
+exp_header: WHAT I EXPERIENCED 
+exp_content: 한 조직의 구성원으로 필요한 역량을 겸비하고 있습니다.
+exp_services: # 형식에 맞추어 항목 추가
+- name: 매니지먼트
+  color: color-1
+  icon: icon-bulb
+  content: 팀프로젝트에서 모두 리더를 맡아 각 팀원들의 능력에 맞는 업무 배분과 일정 관리, 목표 설정을 통한 프로젝트 관리를 진행하였습니다.
+- name: 문제 해결 능력
+  color: color-2
+  icon: icon-home
+  content: 이슈상황이 발생 했을 때, 어떻게든 해결하려고 노력하는 편입니다. 문제 상황을 방치하는 것을 지양합니다.
+- name: 협업 능력
+  color: color-3
+  icon: icon-phone3
+  content: 직장생활을 경험해 봤기 때문에, 조직내에서 협업의 중요성을 인지하고 있으며 팀으로서 업무를 진행하는 방식에 익숙합니다. 
+  exp_counters:
+  - name: Total commit
+    count: 480
+    speed: 10000
+  - name: Project
+    count: 3
+    speed: 5000
+
+
+# Career
+carerr_meta: career
+career_header: Work Career
+career_list:
+- name: 진행 대기
+  date: 0000.00
+  content: 앞으로 빼곡히 채워질 공간입니다.
+  color: color-1
+  icon: icon-pen2
+  animation: fadeInLeft
+
+
+# Education
+edu_meta: Education
+edu_header: Education
+edu_list:
+- title: 디지털컨버전스 기반 융합기술을 활용한 SW 웹 개발자 양성과정 (JAVA)
+  subtitle: JAVA 기반 Web 개발 교육 과정
+  date: 2021.07 - 2021.12
+  content:  
+
+
+# Blog
+blog_meta: self-improvement
+blog_header: BLOG
+blog_load_more: 더 발전하기 위해 항상 노력합니다!!    # 더보기 내용
+blog_load_more_url: https://cut-silicon-1bf.notion.site/Jaeskaaa-eb13e5073e3841f29c63feeed5629543
+blog_list:
+- title: Notion
+  subtitle: 개발 공부 기록용 노션 운영
+  date: 2021.06
+  content: 스쳐지나가는 기술과 지식들이 아까워 하나씩 기록하기 시작하였습니다. 추후에 지나갔던 기술들을 다시 복습하기 위한 저장소입니다.
+  thumbnail_url: images/notion_cap.JPG
+  link: https://cut-silicon-1bf.notion.site/Jaeskaaa-eb13e5073e3841f29c63feeed5629543
+
+
+# Contact
+contact_meta: Get in Touch
+contact_header: Contact
+contact_list:
+- title: jaeskaaa@gmail.com
+  icon: icon-globe-outline
+- title: Seoul, Republic of Korea
+  icon: icon-map
+contact_message: <em>연락해주셔서 감사합니다.</em> 24시간이내에 회신드리도록 하겠습니다. :)
+
+
+optional_front_matter:
+  remove_originals:    true
