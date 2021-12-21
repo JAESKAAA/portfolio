@@ -232,7 +232,7 @@
 
 	var stickyFunction = function() {
 
-		var h = $('.image-content').outerHeight();
+		var h = $('.	').outerHeight();
 		console.log(h);
 		console.log($("#sticky_item"));
 

@@ -261,22 +261,47 @@
 					<hr>
 					</div>	
 					<div class="row">
-						{% for proj in site.project_my %}
-							<div class="col-md-6 animate-box" data-animate-effect="{{ proj.animation }}">
-								<div class="project" style="background-image: url({{ proj.background_url }});">
+						
+							<div class="col-md-6 animate-box" data-animate-effect="{{ site.project_my[0].animation }}">
+								<div class="project" style="background-image: url({{ site.project_my[0].background_url }});">
 									<div class="desc">
 										<div class="con">
-											<h3><a href="#" target="_blank" >{{ proj.name }}</a></h3>
-											<span>{{ proj.description }}</span>
+											<h3><a href="#" target="_blank" >{{ site.project_my[0].name }}</a></h3>
+											<span>{{ site.project_my[0].description }}</span>
 											<p class="icon">
-												<!-- <span><a href="#"><i class="icon-share3"></i></a></span> -->
-												<span><a href="{{ proj.detail_url | default: "#" }}" target="_blank" ><i class="icon-eye"></i> detail</a></span>
+												<span><a href="{{ site.project_my[0].detail_url | default: "#" }}" target="_blank" ><i class="icon-eye"></i> detail</a></span>
 											</p>
 										</div>
 									</div>
 								</div>
 							</div>
-                        {% endfor %}
+                       
+							<div class="col-md-6 animate-box" data-animate-effect="{{ site.project_my[1].animation }}">
+								<div class="project" style="background-image: url({{ site.project_my[1].background_url }});">
+									<div class="desc">
+										<div class="con">
+											<h3><a href="#" target="_blank" >{{ site.project_my[1].name }}</a></h3>
+											<span>{{ site.project_my[1].description }}</span>
+											<p class="icon">
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-md-6 animate-box" data-animate-effect="{{ site.project_my[2].animation }}">
+								<div class="project" style="background-image: url({{ site.project_my[2].background_url }});">
+									<div class="desc">
+										<div class="con">
+											<h3><a href="#" target="_blank" >{{ site.project_my[2].name }}</a></h3>
+											<span>{{ site.project_my[2].description }}</span>
+											<p class="icon">
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+                       
 					</div>
 
 					<div class="animate-box" data-animate-effect="fadeInTop">
@@ -284,29 +309,60 @@
 					<hr>
 					</div>
 					<div class="row">
-						{% for proj in site.project_team %}
-							<div class="col-md-6 animate-box" data-animate-effect="{{ proj.animation }}">
-								<div class="project" style="background-image: url({{ proj.background_url }});">
+
+							<div class="col-md-6 animate-box" data-animate-effect="{{ site.project_team[0].animation }}">
+								<div class="project" style="background-image: url({{ site.project_team[0].background_url }});">
 									<div class="desc">
 										<div class="con">
-											<h3><a href="#" target="_blank">{{ proj.name }}</a></h3>
-											<span>{{ proj.description }}</span>
+											<h3><a href="#" target="_blank">{{ site.project_team[0].name }}</a></h3>
+											<span>{{ site.project_team[0].description }}</span>
 											<p class="icon">
 												<!-- <span><a href="#"><i class="icon-share3"></i></a></span> -->
-												<span><a href="{{ proj.detail_url | default: "#" }}" target="_blank" ><i class="icon-eye"></i> detail</a></span>
-												<span><a href="{{ proj.readmore_url | default: "#" }}" target="_blank"><i class="icon-file"></i> 구현 기능 상세보기</a></span>
-												<span><a href="{{ proj.db_url | default: "#" }}" target="_blank"><i class="icon-data"></i> DB 설계 보기</a></span>
+												<span><a href="{{ site.project_team[0].detail_url | default: "#" }}" target="_blank" ><i class="icon-eye"></i> detail</a></span>
+												<span><a href="{{ site.project_team[0].readmore_url | default: "#" }}" target="_blank"><i class="icon-file"></i> 요구사항 도출</a></span>
+												<span><a href="{{ site.project_team[0].db_url | default: "#" }}" target="_blank"><i class="icon-data"></i> DB 설계 보기</a></span>
 											</p>
 										</div>
 									</div>
 								</div>
 							</div>
-                        {% endfor %}
+                        
+							<div class="col-md-6 animate-box" data-animate-effect="{{ site.project_team[1].animation }}">
+								<div class="project" style="background-image: url({{ site.project_team[1].background_url }});">
+									<div class="desc">
+										<div class="con">
+											<h3><a href="#" target="_blank">{{ site.project_team[1].name }}</a></h3>
+											<span>{{ site.project_team[1].description }}</span>
+											<p class="icon">
+												<!-- <span><a href="#"><i class="icon-share3"></i></a></span> -->
+												<span><a href="{{ site.project_team[1].detail_url | default: "#" }}" target="_blank" ><i class="icon-eye"></i> detail</a></span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+                        
+							<div class="col-md-6 animate-box" data-animate-effect="{{ site.project_team[2].animation }}">
+								<div class="project" style="background-image: url({{ site.project_team[2].background_url }});">
+									<div class="desc">
+										<div class="con">
+											<h3><a href="#" target="_blank">{{ site.project_team[2].name }}</a></h3>
+											<span>{{ site.project_team[2].description }}</span>
+											<p class="icon">
+												<!-- <span><a href="#"><i class="icon-share3"></i></a></span> -->
+												<span><a href="{{ site.project_team[2].detail_url | default: "#" }}" target="_blank" ><i class="icon-eye"></i> detail</a></span>
+												<span><a href="{{ site.project_team[2].readmore_url | default: "#" }}" target="_blank"><i class="icon-file"></i> 요구사항 도출</a></span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+                        
 					</div>
 
 					<div class="row">
 						<div class="col-md-12 animate-box">
-							<p><a href="{{ site.project_load_more_url | default: '#'}}" onclick="return false;" class="btn btn-primary btn-lg btn-load-more"> {{ site.project_load_more }}</a></p>
+							<p><a href="{{ site.project_load_more_url | default: '#'}}" target="_blank" class="btn btn-primary btn-lg btn-load-more"> {{ site.project_load_more }}</a></p>
 						</div>
 					</div>
 				</div>
@@ -484,7 +540,7 @@
 					</div>
 					<div class="row">
 						<div class="col-md-12 animate-box">
-							<p><a href="{{ site.blog_load_more_url | default: '#'}}" onclick="return false;" class="btn btn-primary btn-lg btn-load-more">{{ site.blog_load_more }}</a></p>
+							<p><a href="{{ site.blog_load_more_url | default: '#'}}" target="_blank" class="btn btn-primary btn-lg btn-load-more">{{ site.blog_load_more }}</a></p>
 						</div>
 						{% include youtubeplayer.html id=site.youtube_vid %}
 					</div>
