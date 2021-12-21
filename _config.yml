@@ -210,12 +210,12 @@ exp_services: # 형식에 맞추어 항목 추가
   color: color-3
   icon: icon-phone3
   content: 직장생활을 경험해 봤기 때문에, 조직내에서 협업의 중요성을 인지하고 있으며 팀으로서 업무를 진행하는 방식에 익숙합니다. 
-  exp_counters:
+exp_counters:
   - name: Total commit
     count: 480
-    speed: 10000
+    speed: 5000
   - name: Project
-    count: 3
+    count: 6
     speed: 5000
 
 

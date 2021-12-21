@@ -290,7 +290,29 @@ figure {
         position: relative; }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
-            text-align: center; } }
+            text-align: center; }
+          .slider-text-inner-desc1{
+            float: left;
+            position: absolute;
+            transform: translate( -50%, -50% ) !important;
+            left: 125px;
+            bottom: 150px;
+            }
+          .slider-text-inner-desc2{
+            position: absolute;
+            transform: translate( -50%, -50% ) !important;
+            left: 225px;
+            bottom: 122px;
+            width: 80% !important;
+            }
+          .slider-text-inner-desc3{
+            position: absolute;
+            transform: translate( -50%, -50% ) !important;
+            left: 207px;
+            width: 80% !important;
+            bottom: -107px;
+            }
+          }
         #colorlib-hero .flexslider .slider-text > .slider-text-inner h1, #colorlib-hero .flexslider .slider-text > .slider-text-inner h2 {
           margin: 0;
           padding: 0;
